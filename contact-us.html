@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMS | Using bootstrap</title>
+    <link rel="icon" href="assets/image/favicon.png" type="icon/png">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap-stackpath.min.css">
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="assets/css/plugin/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/plugin/owl.theme.default.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- header Start -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <h2 class="font-weight-bolder">Web<span class="text-success">Spark</span></h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"><i class="fas fa-home mr-2"></i>Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-paste mr-2"></i>pages
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="post-page.html">page-1</a>
+                                <a class="dropdown-item" href="post-page.html">page-2</a>
+
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fab fa-creative-commons-share mr-2"></i>Categories
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Category-1</a>
+                                <a class="dropdown-item" href="#">Category-2</a>
+
+                            </div>
+                        </li>
+                        <li class="nav-item active"><a href="contact-us.html" class="nav-link">
+                                <i class="fas fa-phone-alt mr-2"></i>Contact Us
+                            </a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- header End -->
+
+    <!-- main content area Start -->
+    <section id="main-content-area">
+        <div class="container">
+            <div class="row">
+                <!-- content area here -->
+                <div class="col-md-8 col-12 mt-4">
+                    <!-- contact us title-->
+                    <div class="contact-us-title">
+                        <h2 class="text-center font-weight-bolder">Contact Us</h2>
+                        <div class="bottom-style">
+                            <div class="div1"></div>
+                            <div class="div2"></div>
+                            <div class="div3"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- contact form Start here -->
+                        <div class="col-md-12">
+                            <div class="contact-form mt-md-4 mb-4 border-rounded text-white font-weight-bolder"
+                                style="background-image: url(assets/image/map.jpg);">
+                                <form>
+                                    <div class=" form-group">
+                                        <label for="full-name">Full Name : </label>
+                                        <input type="text" class="form-control" id="full-name" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email address</label>
+                                        <input type="email" class="form-control" id="email"
+                                            aria-describedby="emailHelp">
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your email
+                                            with
+                                            anyone else.</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="text-area">Message : </label>
+                                        <textarea class="form-control" id="text-area" rows="5" required></textarea>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-primary px-4">Send</button>
+                                </form>
+                            </div>
+
+                        </div>
+                        <!-- contact form End here -->
+                        <!-- map Start here -->
+                        <div class="col-md-12 mb-md-0 mb-4">
+                            <div id="googleMap"></div>
+
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.859899412287!2d91.84856421447839!3d24.902760049695047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37505537d8a66533%3A0xc5a564325239470e!2sBagbari%20Rd%2C%20Sylhet!5e0!3m2!1sen!2sbd!4v1582915174234!5m2!1sen!2sbd"
+                                width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+                        </div>
+                        <!-- map End here -->
+                    </div>
+
+
+                </div>
+                <!-- sidebar here -->
+                <div class="col-md-4 d-md-block d-none mt-4">
+                    <!-- search option Start here -->
+                    <form class="form-inline md-form form-sm mt-2">
+                        <input class="form-control form-control-sm w-100 searchbox active-searchbox" type="text"
+                            placeholder="Search here" aria-label="Search">
+                    </form>
+                    <!-- search option End here -->
+
+                    <!-- all widgets Start here -->
+                    <!-- recent post -->
+                    <div class="widget recent-post text-white my-4">
+                        <!-- post title -->
+                        <div class="sidebar-post-title">
+                            <h2 class="text-capitalize font-weight-bolder">Recent posts</h2>
+                            <hr class="bg-white">
+                        </div>
+                        <!-- post content -->
+                        <div class="sidebar-post-contents">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-md-4">
+                                    <img src="assets/image/post-img.jpg" alt="post-image">
+                                </div>
+                                <div class="col-md-8 heading">
+                                    <a href="#" class="text-white">
+                                        <h3 class="text-capitalize">this is a post title</h3>
+                                    </a>
+                                    <i class="fas fa-clock mr-2"></i>
+                                    <p class="d-inline">10 January , 2020</p>
+                                </div>
+
+
+                            </div>
+                            <hr class="bg-white">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-md-4">
+                                    <img src="assets/image/post-img.jpg" alt="post-image">
+                                </div>
+                                <div class="col-md-8 heading">
+                                    <a href="#" class="text-white">
+                                        <h3 class="text-capitalize">this is a post title</h3>
+                                    </a>
+                                    <i class="fas fa-clock mr-2"></i>
+                                    <p class="d-inline">10 January , 2020</p>
+                                </div>
+
+
+                            </div>
+                            <hr class="bg-white">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-md-4">
+                                    <img src="assets/image/post-img.jpg" alt="post-image">
+                                </div>
+                                <div class="col-md-8 heading">
+                                    <a href="#" class="text-white">
+                                        <h3 class="text-capitalize">this is a post title</h3>
+                                    </a>
+                                    <i class="fas fa-clock mr-2"></i>
+                                    <p class="d-inline">10 January , 2020</p>
+                                </div>
+
+
+                            </div>
+                            <hr class="bg-white">
+                        </div>
+
+                    </div>
+                    <!-- Top rated post -->
+                    <div class="widget top-rated-post text-white my-4">
+                        <!-- post title -->
+                        <div class="sidebar-post-title">
+                            <h2 class="text-capitalize font-weight-bolder">Top Rated posts</h2>
+                            <hr class="bg-white">
+                        </div>
+                        <!-- post content -->
+                        <div class="sidebar-post-contents">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-md-4">
+                                    <img src="assets/image/post-img.jpg" alt="post-image">
+                                </div>
+                                <div class="col-md-8 heading">
+                                    <a href="#" class="text-white">
+                                        <h3 class="text-capitalize">this is a post title</h3>
+                                    </a>
+                                    <i class="fas fa-clock mr-2"></i>
+                                    <p class="d-inline">10 January , 2020</p>
+                                </div>
+
+
+                            </div>
+                            <hr class="bg-white">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-md-4">
+                                    <img src="assets/image/post-img.jpg" alt="post-image">
+                                </div>
+                                <div class="col-md-8 heading">
+                                    <a href="#" class="text-white">
+                                        <h3 class="text-capitalize">this is a post title</h3>
+                                    </a>
+                                    <i class="fas fa-clock mr-2"></i>
+                                    <p class="d-inline">10 January , 2020</p>
+                                </div>
+
+
+                            </div>
+                            <hr class="bg-white">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-md-4">
+                                    <img src="assets/image/post-img.jpg" alt="post-image">
+                                </div>
+                                <div class="col-md-8 heading">
+                                    <a href="#" class="text-white">
+                                        <h3 class="text-capitalize">this is a post title</h3>
+                                    </a>
+                                    <i class="fas fa-clock mr-2"></i>
+                                    <p class="d-inline">10 January , 2020</p>
+                                </div>
+
+
+                            </div>
+                            <hr class="bg-white">
+                        </div>
+
+                    </div>
+                    <!-- Categories -->
+                    <div class="widget categories text-white my-4">
+                        <!-- post title -->
+                        <div class="sidebar-post-title">
+                            <h2 class="text-capitalize font-weight-bolder">Categories</h2>
+                            <hr class="bg-white">
+                        </div>
+                        <!-- post content -->
+                        <div class="sidebar-post-contents">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item"><a href="#" class="nav-link">Category 1</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Category 2</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Category 3</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Category 4</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item"><a href="#" class="nav-link">Category 1</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Category 2</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Category 3</a></li>
+                                        <li class="nav-item"><a href="#" class="nav-link">Category 4</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr class="bg-white">
+                        </div>
+
+                    </div>
+                    <!-- Social links -->
+                    <div class="widget social-link text-white my-4">
+                        <!-- post title -->
+                        <div class="sidebar-post-title">
+                            <h2 class="text-capitalize font-weight-bolder">social links</h2>
+                            <hr class="bg-white">
+                        </div>
+                        <!-- post content -->
+                        <div class="sidebar-post-contents">
+                            <div class="row text-center">
+                                <div class="col-md-4"><a href="#"><i class="fab fa-facebook-square text-info"></i></a>
+                                </div>
+                                <div class="col-md-4"><a href="#"><i class="fab fa-google-plus-g text-danger "></i></a>
+                                </div>
+                                <div class="col-md-4"><a href="#"><i class="fab fa-twitter text-info"></i></a></div>
+                            </div>
+                            <div class="row text-center mt-4">
+                                <div class="col-md-4"><a href="#"><i class="fab fa-behance-square text-dark"></i></a>
+                                </div>
+                                <div class="col-md-4"><a href="#"><i class="fab fa-paypal"></i></a>
+                                </div>
+                                <div class="col-md-4"><a href="#"><i class="fab fa-linkedin-in"></i></a></div>
+                            </div>
+                            <hr class="bg-white">
+                        </div>
+
+                    </div>
+                    <!-- all widgets End here -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- main content area End -->
+    <!-- footer Start -->
+    <footer class="bg-primary py-4">
+        <div class="container">
+            <p class="text-center text-white">all rights resereved by &copy; <a href="index.html"
+                    class="text-white font-weight-bolder">Web<span class="text-success">Spark</span></a></p>
+        </div>
+
+    </footer>
+    <!-- footer End -->
+    <!-- all scripts here -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/plugin/owl.carousel.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/plugin/fontawesome-kit.js"></script>
+    <script src="assets/js/plugin/google-map.js"></script>
+
+</body>
+
+</html>

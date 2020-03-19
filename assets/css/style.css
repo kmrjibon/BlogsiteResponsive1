@@ -1,0 +1,250 @@
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+
+/*
+==========================================
+    Reset Css
+==========================================
+*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* google font */
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap');
+
+/* font-family: 'Oswald', ; */
+body {
+    font-family: 'Oswald';
+    background: #ddd;
+}
+
+/* headear Start */
+.navbar-nav {
+    font-size: 16px;
+    font-weight: 500;
+
+
+}
+
+a.nav-link {
+    margin-left: 5px;
+    text-transform: capitalize;
+}
+
+/* headear End */
+/* main content area Start */
+#main-content-area {
+    min-height: 76vh;
+}
+
+/* main post section Start here */
+.post-title h2 {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 35px;
+}
+
+.author img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    float: right;
+}
+
+/* post image here */
+.post-image img {
+    width: 100%;
+}
+
+/* main post section End here */
+
+
+
+/* sidebar Start here */
+/* search option Start here */
+
+
+.searchbox {
+    border: 0px solid #2C3E50;
+    border-bottom-width: 1px;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+form i {
+    color: #2C3E50;
+}
+
+.active-searchbox {
+    border: 0px solid #2C3E50;
+    border-bottom-width: 1px;
+    border-radius: 0;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+/* search option End here */
+/* all widgets Start here */
+.widget {
+    padding: 40px;
+    background-color: rgba(44, 62, 80, 0.856);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+/* post title here */
+.sidebar-post-title h2 {
+    font-size: 25px;
+}
+
+/* post content here */
+.sidebar-post-contents img {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+}
+
+.heading a {
+    text-decoration: none;
+}
+
+.heading a h3:hover {
+    color: #18BC9C;
+
+}
+
+.sidebar-post-contents h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+
+}
+
+/* categories here */
+.sidebar-post-contents li a {
+    font-weight: 900;
+}
+
+/* social link */
+.social-link i {
+    font-size: 30px;
+
+}
+
+
+/* all widgets End here */
+/* sidebar End here */
+/* main content area End */
+/* ========================================================================== */
+
+/* =========== CSS for contact us page ========================== */
+/* contact us title here */
+.contact-us-title h2 {
+    position: relative;
+    padding-bottom: 40px;
+    font-size: 50px;
+}
+
+.bottom-style {
+    position: absolute;
+    content: '';
+    top: 70px;
+    left: 40%;
+    right: 0;
+}
+
+.contact-us-title .div1 {
+    height: 2px;
+    width: 55px;
+    background: #000;
+    float: left;
+    margin-right: 10px;
+}
+
+.contact-us-title .div2 {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #000;
+    float: left;
+    margin-right: 10px;
+    margin-top: -4px;
+}
+
+.contact-us-title .div3 {
+    height: 2px;
+    width: 55px;
+    background: #000;
+    float: left;
+}
+
+.contact-form {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 60px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.contact-form::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: .8;
+    z-index: -1;
+}
+
+/* ================================================================================================ */
+/* CSS for post-page.html */
+
+
+/* post elements here */
+.page-social-links i {
+
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+/* comment section here */
+.comment-form {
+    padding: 20px 50px;
+}
+
+.comment-form label {
+    font-size: 20px;
+}

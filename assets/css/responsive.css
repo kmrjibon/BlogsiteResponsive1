@@ -1,0 +1,187 @@
+/*******************************
+	All Responsive Code
+*******************************/
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+	/* main post section Start here */
+	.date p {
+		font-size: 14px;
+	}
+
+	.date h2 {
+		font-size: 20px;
+	}
+
+	.post-title h2 {
+		font-size: 15px;
+		line-height: 20px;
+	}
+
+	.post-title p {
+		font-size: 10px;
+		line-height: 25px;
+	}
+
+	.author img {
+		height: 40px;
+		width: 40px;
+	}
+
+	/* post image here */
+	.post-image img {
+		width: 100%;
+	}
+
+	/* main post section End here */
+	/* ========================================================================== */
+
+	/* =========== Responsive for contact us page ========================== */
+
+	.contact-form {
+		padding: 30px;
+
+	}
+
+	.contact-us-title h2 {
+		font-size: 40px;
+	}
+
+	.bottom-style {
+		bottom: -58px;
+		left: -32px;
+	}
+
+	/* ================Responsive for post page================== */
+	/* post page title here */
+	.page-post-title h2 {
+		font-size: 20px;
+		padding-bottom: 10px;
+	}
+
+	.page-post-content h2 {
+		font-size: 18px;
+	}
+}
+
+/*  Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+	.post-title h2 {
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.post-title p {
+		font-size: 14px;
+	}
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+	.post-title h2 {
+		font-size: 13px;
+		line-height: 20px;
+	}
+
+	.post-title p {
+		font-size: 14px;
+	}
+
+	.sidebar-post-title h2 {
+		font-size: 20px;
+	}
+
+	.sidebar-post-contents img {
+		height: 40px;
+		width: 40px;
+		object-fit: cover;
+	}
+
+	.sidebar-post-contents h3 {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.sidebar-post-contents p {
+		font-size: 7px;
+	}
+
+	.sidebar-post-contents i {
+		font-size: 7px;
+	}
+
+	.sidebar-post-contents li a {
+		font-size: 8px;
+	}
+
+	.social-link i {
+		font-size: 30px;
+
+	}
+
+	/* =========== CSS for contact us page ========================== */
+	/* contact us title here */
+	.contact-us-title h2 {
+		font-size: 40px;
+	}
+
+	.bottom-style {
+		bottom: -60px;
+		left: 35%;
+	}
+
+	/* =========== Responsive for post page ============ */
+
+	/* post title here */
+	.page-post-title h2 {
+		font-size: 30px;
+	}
+
+	.page-post-content h2 {
+		font-size: 25px;
+	}
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+	.post-title h2 {
+		font-size: 20px;
+		line-height: 25px;
+	}
+
+	.post-title p {
+		font-size: 15px;
+	}
+
+	.sidebar-post-title h2 {
+		font-size: 20px;
+	}
+
+	.sidebar-post-contents img {
+		height: 40px;
+		width: 40px;
+		object-fit: cover;
+	}
+
+	.sidebar-post-contents h3 {
+		font-size: 15px;
+		line-height: 20px;
+	}
+
+	.sidebar-post-contents p {
+		font-size: 10px;
+	}
+
+	.sidebar-post-contents i {
+		font-size: 10px;
+	}
+
+	.sidebar-post-contents li a {
+		font-size: 10px;
+	}
+
+	.social-link i {
+		font-size: 30px;
+
+	}
+}
